@@ -310,7 +310,7 @@ main{
         width: 55vw;
     }
     .input{
-        width: 45vw;
+        width: 39vw;
         height: 30px;
     }
     .search-icon{
@@ -350,7 +350,7 @@ main{
         max-width: 275px;
         height: 62px;
         padding: 0;
-        gap: 0px;
+        gap: 45px;
     }
     .temp1{
         display: flex;
@@ -364,9 +364,8 @@ main{
     .feelslike{
         display: flex;
         align-items: center ;
-        margin-left:45px;
         height: 61px;
-        width: 150px;      
+        width: 270px;      
         font-size: 20px;
         font-weight: 500;
     }
@@ -386,7 +385,7 @@ main{
     }
     .image{
         width: 85px;
-        height: 185px;
+        height: 145px;
     }
     .common2{        
         width: 120px;
@@ -442,7 +441,18 @@ main{
     flex-direction: column;
     align-items: flex-start;
  }   
+ .input{
+    width: 34vw;
+ }
+ .temp{
+    flex-direction: column;
+    gap:5px;   
+ }
+ .temp1{
+    height: 40px;
+ }
  .feelslike{
+    height: 21px;
     margin:0 ;
     padding-left: 3px;
  }
