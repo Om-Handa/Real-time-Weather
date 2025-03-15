@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    background-color: #f7f1e9;
+}
+
+/* NAVBAR */
+.navbar{
+    width:100%;
+    height:75px;
+    color: white;
+    background-color: #0d142a;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin:10px;
+    width: 200px;
+    height:50px;
+    font-size: 35px;
+}
+
+.searchbar{
+    width:500px;
+    display: flex;
+    justify-content: center;
+    margin:200px;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #293248;
+}
+
+.input{
+    width:470px;
+    height:50px;
+    font-size:20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #fff;
+    padding-left: 10px;
+    border: none;
+    background-color: #293248;
+}
+
+.search-icon{
+    width:50px;
+    padding:2px;
+    font-size:20px;
+    border: none;
+    align-self: center;
+    text-align: center;
+}
+
+main{
+    width:100%;
+    height:1000px;
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+    margin-top: 0;
+    margin : 0 0 0 50px;
+}
+/* WEATHER CARD */
+.weather-card{
+    width: 1200px;
+    height: 450px;
+    margin-top: 70px;
+    border:5px solid black;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.city{
+    background-color: transparent;
+    color: #fff;
+    width: 1190px;
+    height:120px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 1px solid white;
+}
+
+.temp{
+    background-color: transparent;
+    width: 800px;
+    height:120px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 0px 10px 30px;
+    font-size: 80px;
+    gap:30px;
+}
+
+.feelslike{
+    width: 305.5px;
+    height:120px;
+    font-size: 35px;
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+
+.description{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    width: 800px; 
+    height: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 19.5px;
+}
+
+.max-min{
+    width: 800px;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.common2{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 9.5px;
+    font-size:40px ;
+}
+
+.image{
+    width:318px;
+    height: 250px;
+    position: relative;
+    background-color: transparent;
+}
+
+.extra{
+    width: 1200px;
+    height: 500px;
+    display: flex;  
+}
+
+/* CARD2 (EXTRA DETIALS) */
+.card2{
+    max-width:700px;
+    height: 320px;
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.common{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 158px;
+    height: 158px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 900;
+    border: 3px solid black;
+}
+
+/* TOMORROW WEATHER  */
+.tomorrow{
+    height:320px;
+    width:500px;
+    border: 3px solid black;
+}
+
+.common4{
+    height: 86px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+.titlet{
+    height: 60px;
+    font-weight: 600;
+}
+
+.tomdes{
+    padding: 0%;
+}
+
+.tomtemp{
+    font-size: 30px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    width:410px;
+    height: 80px;
+}
+
+.tomimg{
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    position: relative;
+}
+.tomsun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tomrain{
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.tomprec{
+    border-right:2px solid black;
+}
+.tomsunrise{
+    border-right:2px solid black;
+}
+.common5{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 86px;
+    width: 245px;
+}
+
+/* FOOTER */
+.footer{
+    max-width: 100%;
+    height: 76px;
+    color: white;
+    padding-left:20px;
+    padding-right:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.maker{
+    font-size: 25px;
+}
+
+.list1{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+
+.list1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.list1 img{
+    width: 15px;
+    height: 15px;
+    filter: invert(1);
+}
+
+.list1 li:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:850px){
+    .body{
+        width: 100%;
+    }
+    .title{
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+    }
+    .navbar{
+        width: 100%;
+        height: 8vh;
+    }
+    .searchbar{
+        margin: 10px;
+        height: 30px;
+        width: 55vw;
+    }
+    .input{
+        width: 45vw;
+        height: 30px;
+    }
+    .search-icon{
+        font-size: 15px;
+    }
+    main{
+        align-items: center;
+        height: auto;
+        width: auto;
+        margin: 20px;
+    }
+    .weather-card{
+        margin-top:50px;
+        width: auto;
+        height:250px;
+    }
+    .city{
+        width: auto;
+        height: 62px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .common3{
+        padding-left: 10px;
+    }
+    .card-grid{
+        height: 186px;
+        width: auto;
+    }
+    .grid{
+        height: 186px;
+        width: 275px;
+        display: flex;
+        flex-direction: column;
+    }
+    .temp{
+        max-width: 275px;
+        height: 62px;
+        padding: 0;
+        gap: 0px;
+    }
+    .temp1{
+        display: flex;
+        align-items: center ;
+        height: 61px;
+        width: 65px;    
+        margin-left: 10px;  
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .feelslike{
+        display: flex;
+        align-items: center ;
+        margin-left:45px;
+        height: 61px;
+        width: 150px;      
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .description{
+        height: 62px;
+        width: 240px;   
+        font-size: 30px; 
+        font-weight: 500;
+    }
+    .max-min{
+        flex-wrap: wrap ;
+        height: 60px;
+        width: 240px;   
+        font-size: 20px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+    .image{
+        width: 85px;
+        height: 185px;
+    }
+    .common2{        
+        width: 120px;
+        height: 29px;
+        font-size: 20px;
+        padding: 0;
+        font-size: 20px;
+        font-weight: 600;
+    }
+     .rain{
+        height: 30px;
+        width: 250px;
+        margin-bottom: 5px;
+    }
+    .extra{
+        height: 800px;
+        width: 380px;
+        flex-direction: column;
+        gap:50px
+    }
+    .card2{
+        height: 380px;
+        max-width: 380px;
+    }
+    .common{
+        height: 90px;
+        width: 180px;
+        align-self: center;
+        font-size: 20px;
+    }
+    .tomorrow{
+        width: 380px;
+        height: 319px;
+    }
+    .tomrain{
+        border:none;
+    }
+    .footer{
+        height: auto;
+        width: 100%;
+    }
+    .maker{
+        font-size: 20px;
+    }
+    .list1 {
+        gap:0px;
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:395px) {
+ .temp{
+    flex-direction: column;
+    align-items: flex-start;
+ }   
+ .feelslike{
+    margin:0 ;
+    padding-left: 3px;
+ }
+ .grid{
+    width: 225px;
+ }
+ .card2{
+    align-self: center;
+    width: 335px;
+ }
+ .common{
+    width: 160px;
+    font-size: 19px;
+ }
+ .tomorrow{
+    width: 334px;
+    align-self: center;
+ }
+ .common4{
+    font-size: 25px;
+ }
+ .tomtemp{
+    font-size: 25px;
+ }
+}

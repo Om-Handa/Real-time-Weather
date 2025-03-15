@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="navbar">
+            <div class="title">WeatherByOm</div>
+            <div class="searchbar"> 
+                <input type="text" class="input" placeholder="Search for your City"></input>  
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass search"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- WEATHER CARD -->
+        <div class="weather-card">
+            <div class="city common3"></div>
+            <div class="card-grid">
+                <div class="grid">
+                    <div class="temp common3"><p class="temp1"></p><p class="feelslike"></p></div>
+                    <div class="description common3"></div>
+                    <div class="max-min common3">
+                        <div class="common2 max"></div>
+                        <div class="common2 min"></div>
+                        <div class="common2 rain" style="width:300px"></div>
+                    </div>
+                </div>
+                <div id="image1" class="image common3"></div>
+            </div>
+        </div>
+        <!-- CARD2 (EXTRA DETAILS) -->
+        <div class="extra">
+            <div class="card2">
+                <div class="common bg humidity"></div>
+                <div class="common bg windspeed"></div>
+                <div class="common bg sunrise"></div>
+                <div class="common bg sunset"></div>
+                <div class="common bg UV"></div>
+                <div class="common bg winddir"></div>
+                <div class="common bg moonphase"></div>
+                <div class="common bg pressure"></div>
+            </div>
+            <!--TOMORROWS WEATHER  -->
+            <div class="tomorrow bg">
+                <div class="titlet common4">TOMORROW'S WEATHER</div>
+                <div class="tomdes  common4">
+                    <div class="tomtemp"></div>
+                    <div class="tomimg"></div>
+                </div>
+                <div class="tomsun common4">
+                    <div class="tomsunrise common5"></div>
+                    <div class="tomsunset common5"></div>
+                </div>
+                <div class="tomrain common4">
+                    <div class="tomprec common5"></div>
+                    <div class="tomhumidity common5"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="maker">
+                Made by Om Handa
+            </p>
+            <div class="list">
+                <ul class="list1">
+                    <li><img src="/images/instagram.png"> <a href="https://www.instagram.com/om_handa246/" target="_blank">Instagram</a></li>
+                    <li><img src="/images/linkedin.png"> <a href="https://www.linkedin.com/in/om-handa-62451b301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                    <li> <img src="/images/github.png"> <a href="https://github.com/Om-Handa" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="script.js"></script>
+    <script src="config.js"></script>   
+</body>
+</html>
