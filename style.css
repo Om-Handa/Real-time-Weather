@@ -645,6 +645,9 @@ main{
         width: 380px;
         height: 319px;
     }
+    .tomtemp{
+        font-size: 25px;
+    }
     .tomrain{
         border:none;
     }
