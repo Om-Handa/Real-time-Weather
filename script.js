@@ -131,27 +131,28 @@ function getimage(result){
         break;
 
         case"Partly Cloudy":
+        case"Partly cloudy":
             if(day==1){
                 set_image('images/partly-cloudy.png')
-                set_background('images/clear.avif', 'black', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')}
+                set_background('images/clear.avif', 'black', 'linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(201,245,255,1) 100%)')}
             else{
                 set_image('images/mooncloud.png')
-                set_background('images/partlynightbg.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')}
+                set_background('images/partlynightbg.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(153,153,153,1) 100%)')}
         break;
 
         case"Cloudy":
         case"Overcast":
             if(day==1){
                 set_image('images/cloudy-day.png')
-                set_background('images/cloudy day.avif', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')}
+                set_background('images/cloudy day.avif', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(153,153,153,1) 100%)')}
             else{
                 set_image('images/cloudy-night.png')
-                set_background('images/cloudynight.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')}
+                set_background('images/cloudynight.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(153,153,153,1) 100%)')}
         break;
 
         case"Mist":
         set_image('images/mist.png')
-        set_background('images/fogbg.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')
+        set_background('images/fogbg.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(153,153,153,1) 100%)')
         break;
 
         case"Patchy snow possible":
@@ -179,7 +180,7 @@ function getimage(result){
         case"Fog":
         case"Freezing fog":
         set_image('images/fog.png')
-        set_background('images/fogbg.jpg', 'white', ' linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')
+        set_background('images/fogbg.jpg', 'white', ' linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(153,153,153,1) 100%)')
         break;
         
         case"Patchy freezing drizzle possible":
@@ -193,10 +194,10 @@ function getimage(result){
         case"Light sleet":
             if(day==1){
                 set_image('images/rainy.png')
-                set_background('images/rain.png', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')} 
+                set_background('images/rain.png', 'white', 'linear-gradient(90deg, rgba(0,4,125,1) 0%, rgba(190,190,190,1) 100%)')} 
             else{
                 set_image('images/night-raining.png')
-                set_background('images/rain.png', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')}
+                set_background('images/rain.png', 'white', 'linear-gradient(90deg, rgba(0,4,125,1) 0%, rgba(190,190,190,1) 100%)')}
         break;
 
         case"Torrential rain shower":
@@ -204,7 +205,7 @@ function getimage(result){
         case"Moderate or heavy sleet":
         case"Moderate or heavy freezing rain":
         set_image('images/rain.png')
-        set_background('images/rain.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')
+        set_background('images/rain.jpg', 'white', 'linear-gradient(90deg, rgba(0,4,125,1) 0%, rgba(190,190,190,1) 100%)')
         break;
 
         case"Patchy light rain with thunder":
@@ -213,7 +214,7 @@ function getimage(result){
         case"Heavy rain at times":
         case"Thundery outbreaks in nearby":
         set_image('images/storm.png')
-        set_background('images/partlynightbg.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,119,119,1) 100%)')
+        set_background('images/partlynightbg.jpg', 'white', 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(153,153,153,1) 100%)')
         break;
     }
 
